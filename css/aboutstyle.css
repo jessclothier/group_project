@@ -5,5 +5,39 @@ margin-top: 300px;
 body {
   color: black;
   font-family: Avenir Medium;
-  margin: 0px;
+}
+
+.navbar{
+  height:90px
+}
+
+p {
+  text-align: left;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
 }
